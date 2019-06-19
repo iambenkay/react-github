@@ -1,13 +1,72 @@
-body {
-  margin: 0;
+html, body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: #033d3a;
+  height: 100%;
+  width: 100%;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.repo .card {
+  height: 9rem;
+}
+.radius {
+  border-radius: .8rem;
+}
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two|Nunito&display=swap');
+* { font-family: 'Nunito', sans-serif; }
+.title {
+  font-size: 2.5rem;
+  color: #033d3a;
+  font-weight: bold;
+  padding: .5rem;
+  width: 100%;
+}
+.language {
+  background: #aaa;
+  display: inline;
+  margin: .2rem;
+  padding: 0 .6rem;
+  width: fit-content;
+}
+ul {
+  margin-top: 1rem;
+  padding: 0;
+}
+.cursive {
+  font-family: "Lobster Two", cursive;
+}
+.text-theme {
+  color: #033d3a;
+}
+.repo a:link, .repo a:visited {
+  color: black;
+  text-decoration: underline;
+}
+.title, .social, .subtitle {
+  font-family: 'Lobster Two', cursive;
+  text-align: center;
+  background: #fff;
+  color: #033d3a;
+  width: 100%;
+}
+.last_push {
+  font-size: .8rem;
+}
+.subtitle {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.title > span, .subtitle > span {
+  color: rgb(97, 19, 19);
+}
+.social {
+  font-size: 2.5rem;
+  padding: 0.5rem;
+}
+.social > span {
+  margin: 0.5rem;
 }
