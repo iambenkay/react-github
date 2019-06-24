@@ -67,6 +67,9 @@ ul {
   font-size: 2.5rem;
   padding: 0.5rem;
 }
-.social > span {
+.social span {
   margin: 0.5rem;
+}
+.social a:link, .social a:visited {
+  color: #033d3a;
 }
